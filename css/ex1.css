@@ -61,12 +61,25 @@ header, #masthead{
 }
 
 #sidebar{
-    width: 360px;
+    width: 400px;
     margin: 20px 0px;
     padding: 10px;
     float: left;
 }
+
+#port ul{
+    list-style-type: none;
+}
+
 #port li{
+    margin: 0 10px 20px 0;
     float: left;
     border: 5px solid #ddd;
+}
+
+footer{
+    background: #ddd;
+    text-align: center;
+    clear:both;
+    padding: 10px;
 }
